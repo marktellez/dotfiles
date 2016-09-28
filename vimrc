@@ -1,11 +1,3 @@
-" ###
-" Much of this was stolen from awesome people who stole it. Many thanks
-" to the giants whos shoulders I stand upon.
-"   * Gary Bernhardt
-"   * Ben Orenstein
-"   * Jim Weirich
-"   * Phil Cohen
-" ###
 " ========================================================================
 " Vundle stuff
 " ========================================================================
