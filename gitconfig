@@ -1,0 +1,40 @@
+[user]
+  name = Mark Tellez
+  email = mark.tellez@icloud.com	
+
+[github]
+  user = MarkTellez
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+
+[color "diff"]
+  meta = yellow 
+
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim --noplugin
+
+[apply]
+  whitespace = nowarn
+
+[help]
+  autocorrect = 1
+
+[branch]
+  autosetupmerge = true
+  autosetuprebase = always
+
+[push]
+  default = current
+
+[rerere]
+  enabled = 1
+
+[merge]
+  ff = only
+
+[include]
+  path = ~/.gitconfig.local
