@@ -7,7 +7,7 @@ elif [[ $platform == 'Darwin' ]]; then
 fi
 
 alias aliases='vim ~/dotfiles/zsh/aliases'
-alias b='bundle install --path .bundle/gems --binstubs .bundle/bin'
+alias b='bundle install --path .bundle/gems --binstubs .bundle/bin --without production'
 alias bu='bundle update'
 alias c='clear'
 alias d='cd ~/dotfiles'
@@ -17,7 +17,7 @@ alias dev='cd ~/development'
 alias ga="git commit --amend"
 alias gap='git add --all -p'
 alias gca='git commit --amend --no-edit'
-alias gcl='git clone'
+alias gcl='git branch --merged | egrep -v "(^\*|master|staging)" | xargs git branch -d'
 alias gc="git commit -m"
 alias gco='git checkout'
 alias gb='git branch'
@@ -36,6 +36,8 @@ alias rc='rails console'
 alias rdm="be rake db:migrate"
 alias r="dev;cd rubymentor"
 alias sa='source ~/dotfiles/zsh/aliases'
+alias sc='cd ~/sc'
+alias ds='cd /Volumes/DIRTSAW/'
 alias sz='source ~/dotfiles/zshrc'
 alias u='cd ..'
 alias v='vim'
