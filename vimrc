@@ -11,6 +11,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'vim-airline/vim-airline'
+
 " My bundles
 Plugin 'scrooloose/nerdtree'        " Project Drawer
 Plugin 'ervandew/supertab'          " Tab completion
@@ -29,6 +31,7 @@ Plugin 'mxw/vim-jsx'                " React/Jsx
 
 " Colors
 Plugin 'nanotech/jellybeans.vim'
+"Plugin 'kristijanhusak/vim-hybrid-material'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -36,6 +39,9 @@ filetype plugin indent on    " required
 
 " Use the colorscheme from above
 colorscheme jellybeans
+set background=dark
+"colorscheme hybrid_reverse
+
 
 syntax on                 " Enable syntax highlighting
 

@@ -2,5 +2,4 @@
 log/
 db/*.sqlite3
 node_modules
-dist/
 bundle.js
