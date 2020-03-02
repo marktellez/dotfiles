@@ -43,7 +43,7 @@ alias u='cd ..'
 alias v='vim'
 alias vi='vim'
 alias ws="ruby -run -e httpd . -p 4200"
-alias mine="git branch | grewp mark/"
+alias mine="git branch | grep mark/"
 alias clean="mine | xargs git branch -d"
 
 betwixt() {
