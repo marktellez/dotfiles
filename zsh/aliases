@@ -46,6 +46,10 @@ alias ws="ruby -run -e httpd . -p 4200"
 alias mine="git branch | grep mark/"
 alias clean="mine | xargs git branch -d"
 
+termtitle() {
+  echo -ne "\033]0;$1\007"
+}
+
 betwixt() {
   sed -n -e "$1,$2 p" -e "$2 q" $3
 }
